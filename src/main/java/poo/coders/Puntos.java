@@ -7,7 +7,7 @@ public class Puntos {
     void uno(){
         puntos = incremental;
     }
-    void cero(){
+    void anular(){
         puntos = 0;
         incremental = 0;
     }
@@ -17,7 +17,7 @@ public class Puntos {
     }
 
     void setPuntos(int puntos){
-        this.puntos = puntos;
+        this.puntos += puntos;
     }
 
     void modificarPuntosDe(Puntos puntos){

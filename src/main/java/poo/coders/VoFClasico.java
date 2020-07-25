@@ -1,7 +1,5 @@
 package poo.coders;
 
-import poo.coders.Comportamiento;
-
 public class VoFClasico implements Comportamiento {
     @Override
     public void correcto(Puntos puntos){
@@ -10,6 +8,6 @@ public class VoFClasico implements Comportamiento {
 
     @Override
     public void incorrecto(Puntos puntos){
-        puntos.cero();
+        puntos.anular();
     }
 }

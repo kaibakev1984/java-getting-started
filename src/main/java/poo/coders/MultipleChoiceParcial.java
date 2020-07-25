@@ -8,6 +8,6 @@ public class MultipleChoiceParcial implements Comportamiento{
 
     @Override
     public void incorrecto(Puntos puntos){
-        puntos.cero();
+        puntos.anular();
     }
 }
